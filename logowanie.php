@@ -1,9 +1,9 @@
 <?php
 	session_start();
 	$pagetitle = "Logowanie";
-
-	include 'include/all/head.php';
-	include 'include/all/header.php';
+	$pageprefix = "";
+	include $pageprefix.'include/all/head.php';
+	include $pageprefix.'include/all/header.php';
 ?>
 
 <!-- Edytowalna treść strony -->
@@ -26,4 +26,4 @@
 <!-- Koniec edytowalnej treści strony -->
 
 
-<?php include 'include/all/footer_script.php'; ?>
+<?php include $pageprefix.'include/all/footer_script.php'; ?>

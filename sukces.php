@@ -1,9 +1,9 @@
 <?php
 	session_start();
 	$pagetitle = "Sukces";
-
-	include 'include/all/head.php';
-	include 'include/all/header.php';
+	$pageprefix = "";
+	include $pageprefix.'include/all/head.php';
+	include $pageprefix.'include/all/header.php';
 	unset($_SESSION['active']);
 ?>
 
@@ -19,4 +19,4 @@
 <!-- Koniec edytowalnej treści strony -->
 
 
-<?php include 'include/all/footer_script.php'; ?>
+<?php include $pageprefix.'include/all/footer_script.php'; ?>

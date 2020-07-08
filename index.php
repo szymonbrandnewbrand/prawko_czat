@@ -1,8 +1,9 @@
 <?php
 	session_start();
 	$pagetitle = "Witaj";
-	include 'include/all/head.php';
-	include 'include/all/header.php';
+	$pageprefix = "";
+	include $pageprefix.'include/all/head.php';
+	include $pageprefix.'include/all/header.php';
 	if (!isset($_SESSION['active'])) {
 		$_SESSION['active'] = 1;
 	}
@@ -19,4 +20,4 @@
 		</div>
 
 
-<?php include 'include/all/footer_script.php'; ?>
+<?php include $pageprefix.'include/all/footer_script.php'; ?>
