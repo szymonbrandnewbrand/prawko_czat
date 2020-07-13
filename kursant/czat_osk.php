@@ -29,7 +29,7 @@
 				<div class="inbox_container">
 					<div class="wiadomosc inbox"><p class="msg">!!!sdkhfgsdkjfhbsd sdkjfhbsdkjhfb sdjbsdhfbsdjkbsdh<br>sdsdgjfgvsdgvjfsv</p></div><p class="info_msg text-secondary text-light">20-07-2020</p>
 				</div>
-				<div class="inbox_container">
+				<div class="inbox_container" id="last">
 					<div class="wiadomosc inbox"><p class="msg">!!!sdkhfgsdkjfhbsd sdkjfhbsdkjhfb sdjbsdhfbsdjkbsdh<br>sdsdgjfgvsdgvjfsv</p></div><p class="info_msg text-secondary text-light">20-07-2020</p>
 				</div>
 

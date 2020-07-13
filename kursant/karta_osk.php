@@ -18,8 +18,8 @@
 				<p class=" mb-2 text-secondary w-100 dane-konto py-2"><i class="fas fa-map-pin text-secondary mr-3"></i> ul. Kwiatowa 52, Kraków</p>
 				
 
-				<a href="czat_osk.php" class="w-100 mt-5"><button class="btn_bnb btn-primary_bnb">Napisz wiadomość</button></a>
-				<a href="powiadomienia_osk.php" class="w-100"><button class="btn_bnb btn-osk_powiadomienia">Powiadomienia OSK</button></a>
+				<a href="czat_osk.php#last" class="w-100 mt-5"><button class="btn_bnb btn-primary_bnb">Napisz wiadomość</button></a>
+				<a href="powiadomienia_osk.php#last" class="w-100"><button class="btn_bnb btn-osk_powiadomienia">Powiadomienia OSK</button></a>
 
 			
 				

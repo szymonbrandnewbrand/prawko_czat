@@ -28,6 +28,7 @@ input {
 	background-image: url('../img/start_bg.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .btn-primary_bnb {
@@ -221,11 +222,15 @@ form.wyloguj > input {
 }
 
 .h-100-custom2 {
-	min-height: calc(100% - 36px);
+	min-height: calc(100% - 88px);
 }
 
 .h-100 {
-	min-height: 100vh;
+	min-height: 100vh !important;
+}
+
+.h-100p {
+	height: 100%;
 }
 
 .screen-title {
@@ -251,6 +256,14 @@ form.wyloguj > input {
 	background-image: url('../img/kursant/start_bg.svg');
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.start-screen-kursant-absolwent {
+	background-image: url('../img/kursant/abs_bg.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .dane-konto {
@@ -259,7 +272,7 @@ form.wyloguj > input {
 	padding-right: 10px;
 }
 
-.dane-konto.hr {
+.hr {
 	border-bottom: 20px solid #8E8E8E;
 }
 
@@ -287,6 +300,7 @@ form.wyloguj > input {
 .czat_input_block {
 	position: fixed;
 	bottom: 0;
+	width: 90%;
 }
 
 .czat_form {
@@ -351,4 +365,39 @@ form.wyloguj > input {
 
 .pb-0 {
 	padding-bottom: 0 !important;
+}
+
+
+
+/*OSK*/
+
+.bg-grey {
+	background: #B1B1B1;
+}
+
+.start-screen-osk {
+	background-image: url('../img/osk/start_bg.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.start-screen-instr {
+	background-image: url('../img/instr/start_bg.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.btn-dezakt_bnb {
+	background: #858585;
+}
+
+/*Admin*/
+
+.start-screen-admin {
+	background-image: url('../img/admin/start_bg.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
 }

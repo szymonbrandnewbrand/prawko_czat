@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$pagetitle = "Instruktor praktyki";
+	$pagetitle = "OSK Czat";
 	$pageprefix = "../";
 	include $pageprefix.'include/all/head.php';
 	include $pageprefix.'include/all/header.php';
@@ -10,7 +10,7 @@
 
 
 		<div class="content_box d-flex flex-column align-items-center px-4 w-100-m bg-white h-100-custom border_top_radius mt_60">
-			<h5 class="text-secondary text-center text-light bg-white w-100 border_top_radius py-2">Adam Kowal</h5>
+			<h5 class="text-secondary text-center text-light bg-white w-100 border_top_radius py-2">Jan Kowalski</h5>
 
 			<div class="czat_window px-3">
 				<div class="inbox_container">

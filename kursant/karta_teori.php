@@ -20,7 +20,7 @@
 
 				
 
-				<a href="czat_teoria.php" class="w-100 mt-5"><button class="btn_bnb btn-primary_bnb">Napisz wiadomość</button></a>
+				<a href="czat_teoria.php#last" class="w-100 mt-5"><button class="btn_bnb btn-primary_bnb">Napisz wiadomość</button></a>
 
 
 			
