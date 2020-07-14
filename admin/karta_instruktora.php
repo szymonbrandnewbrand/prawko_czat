@@ -34,6 +34,11 @@
 
 				<a href="lista_kursantow_praktyki.php" class="w-100"><button class="btn_bnb btn-primary_bnb">Lista kursantów</button></a>
 
+				<form action="instruktorzy.php" method="POST" class="w-100">
+					<input type="hidden" value="1">
+					<input type="submit" value="Usuń konto" class="btn_bnb btn-usun">
+				</form>
+
 
 			
 				

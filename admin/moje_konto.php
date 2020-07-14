@@ -9,7 +9,7 @@
 <!-- Edytowalna treść strony -->
 
 
-		<div class="content_box d-flex flex-column align-items-center justify-content-start py-4 w-100-m h-100-custom border_top_radius mt_60">
+		<div class="content_box d-flex flex-column align-items-center justify-content-start py-4 pb-0 w-100-m h-100-custom border_top_radius mt_60">
 			<h1 class="text-white text-center">Jan Kowalski</h1>
 			<h5 class="text-white text-center">Administrator</h5>
 			<div class="content_box d-flex flex-column align-items-center justify-content-start px-4 w-100 bg-white border_top_radius h-100-custom2">

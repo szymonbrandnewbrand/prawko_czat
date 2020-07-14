@@ -25,6 +25,10 @@
 
 				<a href="instruktorzy.php" class="w-100 mt-5"><button class="btn_bnb btn-primary_bnb">Instruktorzy</button></a>
 				<a href="kursanci.php" class="w-100"><button class="btn_bnb btn-osk_powiadomienia">Kursanci</button></a>
+				<form action="lista_osk.php" method="POST" class="w-100">
+					<input type="hidden" value="1">
+					<input type="submit" value="Usuń konto" class="btn_bnb btn-usun">
+				</form>
 
 			
 				

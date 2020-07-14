@@ -25,6 +25,14 @@
 
 				<a href="czat_osk.php#last" class="w-100 mt-5"><button class="btn_bnb btn-primary_bnb">Napisz wiadomość</button></a>
 				<a href="edycja_statusu_kursanta.php" class="w-100"><button class="btn_bnb btn-osk_powiadomienia">Edytuj</button></a>
+				<form action="kursanci.php" method="POST" class="w-100">
+					<input type="hidden" value="1">
+					<input type="submit" value="Usuń konto" class="btn_bnb btn-usun">
+				</form>
+				<form action="kursanci.php" method="POST" class="w-100">
+					<input type="hidden" value="1">
+					<input type="submit" value="Eksportuj konwersacje" class="btn_bnb btn-dezakt_bnb">
+				</form>
 
 
 			

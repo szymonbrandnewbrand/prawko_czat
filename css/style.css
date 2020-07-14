@@ -55,6 +55,17 @@ input {
 	background-color: #0B596D;
 }
 
+.btn-usun {
+	background-color: transparent;
+	border: 2px solid #0B596D;
+	color: #0B596D !important;
+}
+
+.btn-usun:hover {
+	color: #fff !important;
+	background-color: #0B596D;
+}
+
 .btn_bnb {
 	border-radius: 24px;
 	border: none !important;
@@ -400,4 +411,16 @@ form.wyloguj > input {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: top;
+}
+
+.btn-usun {
+	background-color: transparent;
+	border: 2px solid #140B20 !important;
+	color: #140B20 !important;
+	transition: 1s all;
+}
+
+.btn-usun:hover {
+	color: #fff !important;
+	background-color: #140B20;
 }
